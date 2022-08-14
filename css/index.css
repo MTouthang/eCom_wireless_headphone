@@ -170,3 +170,16 @@ nav {
     color: #fff;
     
 }
+
+/******** Mobile responsive ******/
+
+@media screen and (max-width: 600px) {
+    .nav-items{
+        display: none;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
