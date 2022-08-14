@@ -167,6 +167,7 @@ nav img:nth-child(2) {
     font-size: 18px;
     width: 40%;
     margin: auto;
+    margin-top: 15px;
     background-color: #FE5E35;
     padding: 20px 30px;
     border:none;
@@ -187,7 +188,7 @@ nav img:nth-child(2) {
         margin-bottom: 3%;
     }
     .nav-item {
-        padding-top: 20px;
+        padding-top: 8px;
         padding-right: 10px;
         padding-left: 10px;
         margin-left: 27px;
@@ -261,4 +262,17 @@ nav img:nth-child(2) {
         font-size: 14px;
         margin: auto;
     }
+}
+
+@media screen and (min-width: 1367px) {
+   nav {
+   margin-top: 2%;
+   margin-left: 6%;
+   margin-right: 6%;
+   } 
+   .intro-section {
+    margin-top: 6%;
+    margin-left: 7%;
+    margin-right: 7%;
+   }
 }
