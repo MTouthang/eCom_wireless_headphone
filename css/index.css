@@ -177,9 +177,51 @@ nav {
     .nav-items{
         display: none;
     }
+    nav img:nth-child(3) {
+        display: none;
+    }
 
     .intro-section {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .headphone {
+        width: 400px;
+        padding-left: 13%;
+    }
+    .discount {
+        width: 120px;
+        left: 5%;
+    }
+    .discount-content {
+        position: absolute;
+       
+        top: 63%;
+        left: 10%;
+    }
+    .discount-content > h1 {
+        position: absolute;
+        padding-top: 10px;
+        font-size: 2rem;
+        left: 0;
+    }
+    
+    .intro-section h3 {
+        text-align: center;
+    }
+    .intro-section h1 {
+     text-align: center;
+    }
+    .text {
+        text-align: center;
+        width: 100%;
+    }
+    .action-btns {
+        width: 100%;
+    }
+    .action-btn {
+        padding: 15px 20px;
+        font-size: 14px;
+        margin: auto;
     }
 }
