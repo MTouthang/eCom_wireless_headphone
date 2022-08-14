@@ -33,6 +33,10 @@ nav {
     color: #FE5E35;
 }
 
+nav img:nth-child(2) {
+    display: none;
+}
+
 /*** intro section ****/
 .intro-section{
     display: flex;
@@ -168,24 +172,57 @@ nav {
     border:none;
     border-radius: 30px;
     color: #fff;
-    
 }
 
 /******** Mobile responsive ******/
 
 @media screen and (max-width: 600px) {
     .nav-items{
-        display: none;
+        position: absolute;
+        top: 6%;
+       
+    }
+    nav {
+        margin-right: 6%;
+        margin-bottom: 3%;
+    }
+    .nav-item {
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 27px;
+        z-index: 1;
+        font-size: 14px;
+      
+    }
+   
+    nav img:nth-child(1) {
+        width: 80px;
     }
     nav img:nth-child(3) {
-        display: none;
+        width: 200px;
+        border: 1px solid #eee;
     }
+
+  
+    nav img:nth-child(2){
+        display: block;
+        width: 10px;
+        padding-right: 32%;
+    }
+    
+    .drop-angle:focus {
+        border: 1px solid;
+        display: block;
+    }
+
 
     .intro-section {
         display: flex;
         flex-direction: column-reverse;
     }
     .headphone {
+        margin-top: 10px;
         width: 400px;
         padding-left: 13%;
     }
